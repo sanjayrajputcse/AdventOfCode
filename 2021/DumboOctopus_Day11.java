@@ -1,9 +1,14 @@
-public class Day11DumboOctopus {
+
+/*
+Question : https://adventofcode.com/2021/day/11
+*/
+
+public class DumboOctopus_Day11 {
 
     private static int[][] DIR = {{1,0}, {0,1}, {1,1}, {-1,0}, {0,-1}, {-1,-1}, {-1, 1}, {1, -1}};
 
     public static void main(String[] args) {
-        String[] input1 = new String[]{
+        String[] myInput = new String[]{
             "8258741254",
             "3335286211",
             "8468661311",
@@ -15,7 +20,7 @@ public class Day11DumboOctopus {
             "7568272878",
             "6833643144"
             };
-        String[] input2 = new String[] {
+        String[] input1 = new String[] {
             "5483143223",
             "2745854711",
             "5264556173",
@@ -27,15 +32,15 @@ public class Day11DumboOctopus {
             "4846848554",
             "5283751526"
         };
-        String[] input3 = new String[] {
+        String[] input2 = new String[] {
             "11111",
             "19991",
             "19191",
             "19991",
             "11111"
         };
-        System.out.println("part1 : " + ansPart1(parse(input1)));
-        System.out.println("part2 : " + ansPart2(parse(input1)));
+        System.out.println("part1 : " + ansPart1(parse(myInput)));
+        System.out.println("part2 : " + ansPart2(parse(myInput)));
     }
 
     private static int ansPart1(int[][] input) {
