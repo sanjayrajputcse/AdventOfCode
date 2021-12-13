@@ -1,9 +1,12 @@
 
 /*
 Question : https://adventofcode.com/2021/day/11
+Answer :
+  Part1 : 1694
+  Part2 : 346
 */
 
-public class DumboOctopus_Day11 {
+public class Day11_DumboOctopus {
 
     private static int[][] DIR = {{1,0}, {0,1}, {1,1}, {-1,0}, {0,-1}, {-1,-1}, {-1, 1}, {1, -1}};
 

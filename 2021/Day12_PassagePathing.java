@@ -1,8 +1,11 @@
 /*
-Question : https://adventofcode.com/2021/day/11
+Question : https://adventofcode.com/2021/day/12
+Answer :
+  Part1 : 5958
+  Part2 : 150426
 */
 
-public class PassagePathing_Day12 {
+public class Day12_PassagePathing {
 
     private Set<String> cache = new HashSet<>();
 

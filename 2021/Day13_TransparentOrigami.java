@@ -1,7 +1,10 @@
 /*
 Question: https://adventofcode.com/2021/day/13
+Answer :
+  Part1 : 689
+  Part2 : RLBCJGLU
 */
-public class TransparentOrigami_Day13 {
+public class Day13_TransparentOrigami {
 
     public static void main(String[] args) {
         String[] inp_paper = myPaper();
@@ -12,7 +15,7 @@ public class TransparentOrigami_Day13 {
         System.out.println("part1(after first fold) : " + processFolds(paper, folds, 0, 1));
         // print(paper);
         System.out.println("part2(after all folds) : " + processFolds(paper, folds, 1, folds.length));
-        print(paper); //RLBCJGLU
+        print(paper);
     }
 
     private static int processFolds(boolean[][] paper, int[][] folds, int startIndex, int endIndex) {
