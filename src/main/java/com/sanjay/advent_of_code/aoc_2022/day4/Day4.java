@@ -6,7 +6,9 @@ import java.io.IOException;
 /**
  * --- Day 4: Camp Cleanup ---
  * Question: https://adventofcode.com/2022/day/4
- * Answer : 
+ * Answer :
+ *  Part1: 494
+ *  Part2: 833
 */
 public class Day4 {
 
