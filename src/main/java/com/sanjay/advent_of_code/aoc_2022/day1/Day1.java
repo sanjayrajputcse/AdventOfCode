@@ -8,10 +8,11 @@ import java.util.Comparator;
 import java.util.List;
 
 /**
+ * --- Day 1: Calorie Counting ---
  * Question: https://adventofcode.com/2022/day/1
  * Answer :
  *  Part1: 69177
- *  Part2:
+ *  Part2: 207456
 */
 public class Day1 {
 
@@ -31,9 +32,9 @@ public class Day1 {
         }
         totalCaloriesList.add(totalCalories);
         maxCaloriesSoFar = Math.max(maxCaloriesSoFar, totalCalories);
-        System.out.println("Part1: Max Calories => " + maxCaloriesSoFar);
+        System.out.println("Part1: " + maxCaloriesSoFar);
         totalCaloriesList.sort(Comparator.reverseOrder());
-        System.out.println("Part2: Max 3 Calories sum => " + (totalCaloriesList.get(0)+totalCaloriesList.get(1)+totalCaloriesList.get(2)));
+        System.out.println("Part2: " + (totalCaloriesList.get(0)+totalCaloriesList.get(1)+totalCaloriesList.get(2)));
     }
 
     private static String[] parseInput() throws IOException {

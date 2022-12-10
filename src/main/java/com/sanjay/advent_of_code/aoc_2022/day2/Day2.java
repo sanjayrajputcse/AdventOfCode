@@ -4,6 +4,7 @@ import com.sanjay.advent_of_code.InputReader;
 import java.io.IOException;
 
 /**
+ * --- Day 2: Rock Paper Scissors ---
  * Question: https://adventofcode.com/2022/day/2
  * Answer :
  *  Part1: 12679
@@ -24,6 +25,7 @@ public class Day2 {
 
     public static void main(String[] args) throws IOException {
         String[] data = parseInput();
+        // Part1
         int totalScore = 0;
         for (String line : data) {
             int opponentMove = line.charAt(0) - 'A';
