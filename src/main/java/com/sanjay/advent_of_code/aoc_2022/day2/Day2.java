@@ -7,6 +7,7 @@ import java.io.IOException;
  * Question: https://adventofcode.com/2022/day/2
  * Answer :
  *  Part1: 12679
+ *  Part1: 14470
 */
 public class Day2 {
 
